@@ -210,7 +210,7 @@ public class Main {
                 for (Object obj : paidItems) {
                     System.out.println(obj.toString()); //calls method for printing Object items in list
                 }
-                System.out.println(stateForTax + " is " + (((float) stateTax*100)) + " percent.");
+                System.out.println(stateForTax + " sales tax is " + (((float) stateTax*100)) + " percent.");
                 System.out.printf("\nYour current total is %.2f before tax", preTaxTotal); // return values
                 System.out.printf("\nYour current total is %.2f after tax", afterTaxTotal); // return values
                 keepShopping = false; //escapes loop--ends program
